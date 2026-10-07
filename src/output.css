@@ -531,6 +531,9 @@
     .md\:col-span-6 {
       grid-column: span 6 / span 6;
     }
+    .md\:w-\[80\%\] {
+      width: 80%;
+    }
     .md\:flex-row {
       flex-direction: row;
     }
@@ -548,6 +551,9 @@
     .lg\:w-230 {
       width: calc(var(--spacing) * 230);
     }
+    .lg\:w-\[1\] {
+      width: 1;
+    }
     .lg\:w-\[30\%\] {
       width: 30%;
     }
@@ -562,6 +568,9 @@
     }
     .lg\:w-auto {
       width: auto;
+    }
+    .lg\:w-full {
+      width: 100%;
     }
     .lg\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
