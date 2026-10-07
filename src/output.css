@@ -457,6 +457,9 @@
   .text-left {
     text-align: left;
   }
+  .align-middle {
+    vertical-align: middle;
+  }
   .font-abel {
     font-family: var(--font-abel);
   }
@@ -525,9 +528,6 @@
     color: var(--color-black);
   }
   @media (width >= 48rem) {
-    .md\:col-span-4 {
-      grid-column: span 4 / span 4;
-    }
     .md\:col-span-6 {
       grid-column: span 6 / span 6;
     }
@@ -574,6 +574,9 @@
     }
     .lg\:items-center {
       align-items: center;
+    }
+    .lg\:items-start {
+      align-items: flex-start;
     }
     .lg\:justify-around {
       justify-content: space-around;
